@@ -21,6 +21,9 @@ module TweetRadius
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
 
+    # Bootstraps mongoid within applications
+    Mongoid.load!("config/mongoid.yml")
+
     # Custom directories with classes and modules you want to be autoloadable.
     # config.autoload_paths += %W(#{config.root}/extras)
 
