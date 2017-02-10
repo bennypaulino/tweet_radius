@@ -6,6 +6,9 @@ gem 'mongoid',  '~> 3.0'
 # Binary version of JSON that MongoDB uses internally to store its data
 gem 'bson_ext', '>= 1.5.2'
 
+# Provides access to Twitter's Streaming API
+gem 'tweetstream'
+
 gem 'jquery-rails'
 
 # Bundle edge Rails instead:
