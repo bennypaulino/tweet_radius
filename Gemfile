@@ -12,6 +12,9 @@ gem 'tweetstream'
 # Enables pagination
 gem 'will_paginate'
 
+# Keep secret keys from going public on github
+gem 'figaro'
+
 gem 'jquery-rails'
 
 # Bundle edge Rails instead:
