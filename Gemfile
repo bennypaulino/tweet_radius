@@ -23,7 +23,12 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-# Helps to spped up page load times & provides errors in Heroku logs
+group :development, :test do
+  # Testing framework
+  gem 'rspec-rails', '~> 3.5'
+end
+
+# Helps to speed up page load times & provides errors in Heroku logs
 gem 'rails_12factor', group: :production
 
 # To use ActiveModel has_secure_password
