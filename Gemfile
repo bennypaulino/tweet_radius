@@ -6,10 +6,10 @@ gem 'mongoid',  '~> 3.0'
 # Binary version of JSON that MongoDB uses internally to store its data
 gem 'bson_ext', '>= 1.5.2'
 
+gem 'jquery-rails'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
-
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -23,7 +23,8 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
+# Helps to spped up page load times & provides errors in Heroku logs
+gem 'rails_12factor', group: :production
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
