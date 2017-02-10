@@ -188,6 +188,7 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.2)
+    will_paginate (3.1.5)
 
 PLATFORMS
   ruby
@@ -203,6 +204,7 @@ DEPENDENCIES
   sass-rails (~> 3.2.3)
   tweetstream
   uglifier (>= 1.0.3)
+  will_paginate
 
 BUNDLED WITH
    1.14.3

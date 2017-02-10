@@ -9,6 +9,9 @@ gem 'bson_ext', '>= 1.5.2'
 # Provides access to Twitter's Streaming API
 gem 'tweetstream'
 
+# Enables pagination
+gem 'will_paginate'
+
 gem 'jquery-rails'
 
 # Bundle edge Rails instead:
